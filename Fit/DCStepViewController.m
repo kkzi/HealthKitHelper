@@ -11,6 +11,8 @@
 @interface DCStepViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *readStepLabel;
 @property (weak, nonatomic) IBOutlet UITextField *writeStepTextField;
+@property (weak, nonatomic) IBOutlet UILabel *Label;
+
 
 @end
 
@@ -29,6 +31,7 @@
         NSLog(@"%f",stepCount);
         dispatch_async(dispatch_get_main_queue(), ^{
             _readStepLabel.text = [NSString stringWithFormat:@"%.f",stepCount];
+            
         });
     }];
 }

@@ -202,6 +202,7 @@
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					4ED4B7F419283674002C7E33 = {
+						DevelopmentTeam = SEN5N9M8ZX;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
 								enabled = 1;
@@ -358,11 +359,12 @@
 				CODE_SIGN_ENTITLEMENTS = Fit/Fit.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SEN5N9M8ZX;
 				INFOPLIST_FILE = Fit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.aaron;
+				PRODUCT_BUNDLE_IDENTIFIER = no.yes.healthkit;
 				PRODUCT_NAME = Fit;
-				PROVISIONING_PROFILE = "6c61f588-f46a-4621-87b0-998320a1bad5";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
@@ -376,11 +378,12 @@
 				CODE_SIGN_ENTITLEMENTS = Fit/Fit.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SEN5N9M8ZX;
 				INFOPLIST_FILE = Fit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.aaron;
+				PRODUCT_BUNDLE_IDENTIFIER = no.yes.healthkit;
 				PRODUCT_NAME = Fit;
-				PROVISIONING_PROFILE = "6c61f588-f46a-4621-87b0-998320a1bad5";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
